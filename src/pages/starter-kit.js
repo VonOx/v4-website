@@ -173,12 +173,21 @@ function Plus() {
                 <div>
                   <span>
                     <label style={{ display: "block" }}>
-                      (Offre limitée dans le temps)
+                      <span style={{ fontSize: "30px", fontWeight: "bold" }}>
+                        259,97€
+                      </span>{" "}
+                      ( au lieu de 439,97€ )
                     </label>
+
+                    <label style={{ display: "block", fontSize: "14px" }}>
+                      (Offre temporaire, le prix peut évoluer en fonction des
+                      prix fournisseurs)
+                    </label>
+
                     <input
                       type="submit"
                       onClick={subscribe}
-                      value="Commander maintenant !"
+                      value="Commander !"
                       className={cx(
                         "button button--primary",
                         styles.starterKitInputButton
