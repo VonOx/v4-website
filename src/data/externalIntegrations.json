@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T06:46:44.107Z",
+  "generated_at": "2026-10-05T06:57:40.600Z",
   "integrations": [
     {
       "slug": "apple-tv",
@@ -7,14 +7,14 @@
       "repo_url": "https://github.com/valentinhttr/gladys-apple-tv",
       "name": "Apple TV",
       "type": "device",
-      "version": "1.2.1",
+      "version": "2.1.0",
       "description": {
         "en": "Control your Apple TV: power, remote, playback, volume and applications.",
         "fr": "Contrôlez votre Apple TV : alimentation, télécommande, lecture, volume et applications."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/valentinhttr--gladys-apple-tv.jpg",
-      "docker_image": "ghcr.io/valentinhttr/gladys-apple-tv:1.2.1",
-      "gladys_version": ">=5.0.0",
+      "docker_image": "ghcr.io/valentinhttr/gladys-apple-tv:2.1.0",
+      "gladys_version": ">=5.1.0",
       "config_schema": [
         {
           "key": "how_it_works",
@@ -183,7 +183,7 @@
         }
       ],
       "stars": 1,
-      "pushed_at": "2026-09-02T07:33:10Z",
+      "pushed_at": "2026-10-04T18:11:32Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20521112?v=4"
     },
     {
@@ -321,7 +321,7 @@
         }
       ],
       "stars": 1,
-      "pushed_at": "2026-09-26T11:44:13Z",
+      "pushed_at": "2026-10-01T21:18:53Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/14235706?v=4"
     },
     {
@@ -771,7 +771,7 @@
         }
       ],
       "stars": 1,
-      "pushed_at": "2026-08-15T19:12:42Z",
+      "pushed_at": "2026-10-02T08:38:08Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -847,13 +847,13 @@
       "repo_url": "https://github.com/prohand/gladys-prixcarburants",
       "name": "Prix carburants",
       "type": "device",
-      "version": "2.0.8",
+      "version": "2.0.11",
       "description": {
         "en": "Follow the price of your fuel at the petrol stations near you, from official open data.",
         "fr": "Suivez le prix de votre carburant dans les stations-service proches de chez vous."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-prixcarburants.png",
-      "docker_image": "ghcr.io/prohand/gladys-prixcarburants:2.0.8",
+      "docker_image": "ghcr.io/prohand/gladys-prixcarburants:2.0.11",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -1081,7 +1081,7 @@
         }
       ],
       "stars": 1,
-      "pushed_at": "2026-09-24T08:29:09Z",
+      "pushed_at": "2026-10-04T15:47:07Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
@@ -1721,7 +1721,7 @@
         }
       ],
       "stars": 1,
-      "pushed_at": "2026-08-04T06:56:24Z",
+      "pushed_at": "2026-10-02T08:38:06Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -2054,13 +2054,13 @@
       "repo_url": "https://github.com/vincentBesseau/gladys-allocine",
       "name": "AlloCiné",
       "type": "provider",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": {
         "en": "Movies currently playing at any French cinema (chain or independent).",
         "fr": "Films actuellement à l'affiche dans n'importe quel cinéma français (chaîne ou indépendant)."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/vincentBesseau--gladys-allocine.png",
-      "docker_image": "ghcr.io/vincentbesseau/gladys-allocine:1.0.0",
+      "docker_image": "ghcr.io/vincentbesseau/gladys-allocine:1.0.1",
       "gladys_version": ">=5.1.1",
       "config_schema": [
         {
@@ -2090,7 +2090,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-22T08:26:59Z",
+      "pushed_at": "2026-09-30T10:07:45Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33568805?v=4"
     },
     {
@@ -2575,7 +2575,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-26T15:14:25Z",
+      "pushed_at": "2026-10-02T08:41:58Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -2793,6 +2793,80 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/13965280?v=4"
     },
     {
+      "slug": "broadlink",
+      "store_slug": "prohand/gladys-broadlink",
+      "repo_url": "https://github.com/prohand/gladys-broadlink",
+      "name": "Broadlink",
+      "type": "device",
+      "version": "1.0.1",
+      "description": {
+        "en": "Local control of Broadlink devices: RM remotes (IR/RF), SP plugs, MP1 strips, A1 sensors.",
+        "fr": "Broadlink en local : télécommandes RM (IR/RF), prises SP, multiprises MP1, capteurs A1."
+      },
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-broadlink.jpg",
+      "docker_image": "ghcr.io/prohand/gladys-broadlink:1.0.1",
+      "gladys_version": ">=5.1.0",
+      "config_schema": [
+        {
+          "key": "intro",
+          "type": "section",
+          "label": {
+            "en": "Getting started",
+            "fr": "Pour commencer"
+          },
+          "description": {
+            "en": "Set up your devices on your Wi-Fi with the Broadlink app first, and make sure they are NOT locked (device settings > Lock device: off). Then run a scan from the Discovery tab. Everything stays on your local network: no Broadlink account is needed here.",
+            "fr": "Installez d'abord vos appareils sur votre Wi-Fi avec l'application Broadlink, et vérifiez qu'ils ne sont PAS verrouillés (paramètres de l'appareil > Verrouiller l'appareil : désactivé). Lancez ensuite un scan depuis l'onglet Découverte. Tout reste sur votre réseau local : aucun compte Broadlink n'est nécessaire ici."
+          },
+          "links": [
+            {
+              "url": "https://github.com/mjg59/python-broadlink",
+              "label": {
+                "en": "Supported models",
+                "fr": "Modèles pris en charge"
+              }
+            }
+          ]
+        },
+        {
+          "key": "hosts",
+          "type": "string",
+          "label": {
+            "en": "Device IP addresses (optional)",
+            "fr": "Adresses IP des appareils (optionnel)"
+          },
+          "description": {
+            "en": "Only if the scan does not find a device (other VLAN, broadcast filtered...): its IP addresses, separated by commas. Give your devices a fixed IP (DHCP reservation).",
+            "fr": "Seulement si le scan ne trouve pas un appareil (autre VLAN, broadcast filtré…) : ses adresses IP, séparées par des virgules. Donnez une IP fixe à vos appareils (réservation DHCP)."
+          },
+          "placeholder": {
+            "en": "192.168.1.50, 192.168.1.51",
+            "fr": "192.168.1.50, 192.168.1.51"
+          },
+          "required": false
+        },
+        {
+          "key": "poll_frequency",
+          "type": "number",
+          "label": {
+            "en": "Refresh interval (s)",
+            "fr": "Intervalle de rafraîchissement (s)"
+          },
+          "description": {
+            "en": "How often plug states and sensors are read, in seconds.",
+            "fr": "Fréquence de lecture de l'état des prises et des capteurs, en secondes."
+          },
+          "required": false,
+          "default": 60,
+          "min": 10,
+          "max": 3600
+        }
+      ],
+      "stars": 0,
+      "pushed_at": "2026-10-02T12:16:33Z",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
+    },
+    {
       "slug": "callmebot",
       "store_slug": "GladysAssistant/gladys-callmebot",
       "repo_url": "https://github.com/GladysAssistant/gladys-callmebot",
@@ -2918,18 +2992,79 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1559970?v=4"
     },
     {
+      "slug": "daikin-airbase",
+      "store_slug": "plsoftware/gladys-daikin-controller",
+      "repo_url": "https://github.com/plsoftware/gladys-daikin-controller",
+      "name": "Daikin Airbase",
+      "type": "device",
+      "version": "0.1.1",
+      "description": {
+        "en": "Daikin ducted air conditioning via a local Airbase (BRP15B61) adapter: mode, temperature, zones.",
+        "fr": "Climatisation gainable Daikin via l'adaptateur Airbase (BRP15B61) local : mode, température, zones."
+      },
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/plsoftware--gladys-daikin-controller.png",
+      "docker_image": "ghcr.io/plsoftware/gladys-daikin-controller:0.1.1",
+      "gladys_version": ">=5.1.0",
+      "config_schema": [
+        {
+          "key": "intro",
+          "type": "section",
+          "label": {
+            "en": "Airbase adapters",
+            "fr": "Adaptateurs Airbase"
+          },
+          "description": {
+            "en": "The adapter is reached directly on your network, no Daikin account needed. Give it a fixed IP (a DHCP reservation on your router) so it keeps the same address.",
+            "fr": "L'adaptateur est joint directement sur votre réseau, sans compte Daikin. Donnez-lui une IP fixe (réservation DHCP sur votre box) pour qu'il garde la même adresse."
+          }
+        },
+        {
+          "key": "hosts",
+          "type": "string",
+          "label": {
+            "en": "Adapter IP address(es)",
+            "fr": "Adresse(s) IP de l'adaptateur"
+          },
+          "description": {
+            "en": "One or more, separated by commas, e.g. 192.168.1.50",
+            "fr": "Une ou plusieurs, séparées par des virgules, ex. 192.168.1.50"
+          },
+          "required": true
+        },
+        {
+          "key": "poll_frequency",
+          "type": "number",
+          "label": {
+            "en": "Refresh interval (s)",
+            "fr": "Intervalle de rafraîchissement (s)"
+          },
+          "description": {
+            "en": "How often the adapter is read; changes made from the wall controller or the Daikin app appear within this delay.",
+            "fr": "Fréquence de lecture de l'adaptateur ; les changements faits depuis la commande murale ou l'application Daikin apparaissent dans ce délai."
+          },
+          "required": false,
+          "default": 30,
+          "min": 10,
+          "max": 600
+        }
+      ],
+      "stars": 0,
+      "pushed_at": "2026-10-04T09:35:59Z",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/35511758?v=4"
+    },
+    {
       "slug": "daikin-cloud",
       "store_slug": "prohand/gladys-daikin-cloud",
       "repo_url": "https://github.com/prohand/gladys-daikin-cloud",
       "name": "Daikin Cloud",
       "type": "device",
-      "version": "4.0.4",
+      "version": "4.0.5",
       "description": {
         "en": "Control your Daikin air conditioners through the official Onecta cloud API.",
         "fr": "Pilotez vos climatiseurs Daikin via l'API cloud officielle Daikin Onecta."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-daikin-cloud.png",
-      "docker_image": "ghcr.io/prohand/gladys-daikin-cloud:4.0.4",
+      "docker_image": "ghcr.io/prohand/gladys-daikin-cloud:4.0.5",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -3030,7 +3165,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-23T17:52:04Z",
+      "pushed_at": "2026-10-03T12:49:31Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
@@ -3093,14 +3228,14 @@
       "repo_url": "https://github.com/prohand/gladys-devmel",
       "name": "Devmel",
       "type": "device",
-      "version": "1.0.18",
+      "version": "2.0.3",
       "description": {
         "en": "Control the shutters, switches, lights and sensors of a Devmel AirSend radio gateway.",
         "fr": "Pilotez volets, interrupteurs, lampes et capteurs d'une passerelle radio Devmel AirSend."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-devmel.png",
-      "docker_image": "ghcr.io/prohand/gladys-devmel:1.0.18",
-      "gladys_version": ">=4.86.0",
+      "docker_image": "ghcr.io/prohand/gladys-devmel:2.0.3",
+      "gladys_version": ">=5.1.0",
       "config_schema": [
         {
           "key": "intro",
@@ -3271,10 +3406,28 @@
           },
           "required": false,
           "default": false
+        },
+        {
+          "key": "log_timezone",
+          "type": "string",
+          "label": {
+            "en": "Time zone of the logs",
+            "fr": "Fuseau horaire des journaux"
+          },
+          "description": {
+            "en": "The time zone the log lines are stamped in, so they show the same hour as the dashboard widget. An IANA name such as Europe/Paris or America/Montreal. Left empty: the TZ of the container, or UTC.",
+            "fr": "Le fuseau horaire des heures écrites dans les journaux, pour qu'ils affichent la même heure que le widget du tableau de bord. Un nom IANA comme Europe/Paris ou America/Montreal. Laissé vide : le TZ du conteneur, ou UTC."
+          },
+          "placeholder": {
+            "en": "Europe/Paris",
+            "fr": "Europe/Paris"
+          },
+          "required": false,
+          "default": "Europe/Paris"
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-08-20T18:02:33Z",
+      "pushed_at": "2026-10-02T18:07:03Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
@@ -3721,13 +3874,13 @@
       "repo_url": "https://github.com/guim31/gladys-ecojoko",
       "name": "ecojoko",
       "type": "device",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": {
         "en": "Live power, daily consumption and ambient sensors from your ecojoko energy assistant.",
         "fr": "Puissance en direct, consommation du jour et capteurs d'ambiance de votre assistant ecojoko."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/guim31--gladys-ecojoko.png",
-      "docker_image": "ghcr.io/guim31/gladys-ecojoko:1.0.2",
+      "docker_image": "ghcr.io/guim31/gladys-ecojoko:1.0.3",
       "gladys_version": ">=4.86.0",
       "config_schema": [
         {
@@ -3835,7 +3988,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-09T19:34:15Z",
+      "pushed_at": "2026-10-02T09:59:29Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -4110,7 +4263,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-26T08:37:40Z",
+      "pushed_at": "2026-10-04T06:30:32Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5129154?v=4"
     },
     {
@@ -4248,6 +4401,130 @@
       "stars": 0,
       "pushed_at": "2026-09-11T21:12:48Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11477113?v=4"
+    },
+    {
+      "slug": "forecast-solar",
+      "store_slug": "prohand/gladys-forecastsolar",
+      "repo_url": "https://github.com/prohand/gladys-forecastsolar",
+      "name": "Forecast.Solar",
+      "type": "device",
+      "version": "1.0.1",
+      "description": {
+        "en": "Solar production forecast for your PV panels: power now, energy today and tomorrow.",
+        "fr": "Prévision de production solaire : puissance actuelle, énergie du jour et du lendemain."
+      },
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-forecastsolar.png",
+      "docker_image": "ghcr.io/prohand/gladys-forecastsolar:1.0.1",
+      "gladys_version": ">=5.1.0",
+      "config_schema": [
+        {
+          "key": "intro",
+          "type": "section",
+          "label": {
+            "en": "Getting started",
+            "fr": "Pour commencer"
+          },
+          "description": {
+            "en": "The forecast uses the location of your houses in Gladys (Settings > Houses): one device per located house, add only the ones with solar panels. Then describe the panels below. Free plan: no account, 12 requests per hour.",
+            "fr": "La prévision utilise la position de vos maisons dans Gladys (Paramètres > Maisons) : un appareil par maison localisée, n'ajoutez que celles qui ont des panneaux. Décrivez ensuite les panneaux ci-dessous. Offre gratuite : sans compte, 12 requêtes par heure."
+          },
+          "links": [
+            {
+              "url": "https://forecast.solar",
+              "label": {
+                "en": "Forecast.Solar website",
+                "fr": "Site de Forecast.Solar"
+              }
+            },
+            {
+              "url": "https://doc.forecast.solar/api:estimate",
+              "label": {
+                "en": "API documentation",
+                "fr": "Documentation de l'API"
+              }
+            }
+          ]
+        },
+        {
+          "key": "declination",
+          "type": "number",
+          "label": {
+            "en": "Tilt (°)",
+            "fr": "Inclinaison (°)"
+          },
+          "description": {
+            "en": "Angle of the panels: 0 = flat, 90 = vertical.",
+            "fr": "Angle des panneaux : 0 = à plat, 90 = vertical."
+          },
+          "required": true,
+          "default": 35,
+          "min": 0,
+          "max": 90
+        },
+        {
+          "key": "azimuth",
+          "type": "number",
+          "label": {
+            "en": "Orientation (°)",
+            "fr": "Orientation (°)"
+          },
+          "description": {
+            "en": "Direction the panels face: 0 = south, -90 = east, 90 = west, 180 = north.",
+            "fr": "Direction des panneaux : 0 = sud, -90 = est, 90 = ouest, 180 = nord."
+          },
+          "required": true,
+          "default": 0,
+          "min": -180,
+          "max": 180
+        },
+        {
+          "key": "wp",
+          "type": "number",
+          "label": {
+            "en": "Peak power (Wp)",
+            "fr": "Puissance crête (Wc)"
+          },
+          "description": {
+            "en": "Installed peak power of the panels, in watt-peak (whole number), e.g. 3000 for 3 kWp or 6200 for 6.2 kWp.",
+            "fr": "Puissance crête installée des panneaux, en watt-crête (nombre entier), par exemple 3000 pour 3 kWc ou 6200 pour 6,2 kWc."
+          },
+          "required": true,
+          "min": 10,
+          "max": 10000000
+        },
+        {
+          "key": "api_key",
+          "type": "secret",
+          "label": {
+            "en": "API key (optional)",
+            "fr": "Clé d'API (facultative)"
+          },
+          "description": {
+            "en": "Leave empty for the free plan.",
+            "fr": "Laissez vide pour l'offre gratuite."
+          },
+          "required": false
+        },
+        {
+          "key": "refresh_interval",
+          "type": "number",
+          "label": {
+            "en": "Forecast refresh interval (min)",
+            "fr": "Intervalle de mise à jour de la prévision (min)"
+          },
+          "description": {
+            "en": "How often the forecast is downloaded again. The values shown in Gladys are still updated every 5 minutes.",
+            "fr": "Fréquence de téléchargement de la prévision. Les valeurs affichées dans Gladys restent mises à jour toutes les 5 minutes."
+          },
+          "required": false,
+          "default": 60,
+          "min": 15,
+          "max": 1440
+        }
+      ],
+      "stars": 0,
+      "pushed_at": "2026-10-02T13:42:32Z",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
       "slug": "free-mobile-sms",
@@ -5352,13 +5629,13 @@
       "repo_url": "https://github.com/cicoub13/gladys-iss",
       "name": "ISS Overhead",
       "type": "provider",
-      "version": "0.2.0",
+      "version": "0.3.1",
       "description": {
         "en": "Predicts visible ISS passes over your house and can trigger a scene when one starts.",
         "fr": "Prédit les passages visibles de l'ISS au-dessus de chez vous et peut déclencher une scène."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/cicoub13--gladys-iss.jpg",
-      "docker_image": "ghcr.io/cicoub13/gladys-iss:0.2.0",
+      "docker_image": "ghcr.io/cicoub13/gladys-iss:0.3.1",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -5413,10 +5690,56 @@
               }
             }
           ]
+        },
+        {
+          "key": "lead_time_minutes",
+          "type": "number",
+          "label": {
+            "en": "Scene lead time (minutes)",
+            "fr": "Anticipation des scènes (minutes)"
+          },
+          "description": {
+            "en": "How long before a pass starts the \"ISS pass starting\" trigger fires.",
+            "fr": "Combien de temps avant le début d'un passage le déclencheur « Passage ISS en cours de démarrage » se déclenche."
+          },
+          "required": false,
+          "default": 5,
+          "min": 0,
+          "max": 60
+        },
+        {
+          "key": "language",
+          "type": "select",
+          "label": {
+            "en": "Scene language",
+            "fr": "Langue des scènes"
+          },
+          "description": {
+            "en": "Language of the date, time and direction handed to your scenes (notifications, voice messages).",
+            "fr": "Langue de la date, de l'heure et de la direction transmises à vos scènes (notifications, messages vocaux)."
+          },
+          "required": false,
+          "default": "fr",
+          "options": [
+            {
+              "value": "en",
+              "label": {
+                "en": "English",
+                "fr": "Anglais"
+              }
+            },
+            {
+              "value": "fr",
+              "label": {
+                "en": "French",
+                "fr": "Français"
+              }
+            }
+          ]
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-27T12:10:31Z",
+      "pushed_at": "2026-09-29T12:34:41Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1773153?v=4"
     },
     {
@@ -5549,7 +5872,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-28T05:45:16Z",
+      "pushed_at": "2026-10-02T08:41:55Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -6809,6 +7132,439 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33568805?v=4"
     },
     {
+      "slug": "mammotion",
+      "store_slug": "prohand/gladys-mammotion",
+      "repo_url": "https://github.com/prohand/gladys-mammotion",
+      "name": "Mammotion",
+      "type": "device",
+      "version": "1.1.1",
+      "description": {
+        "en": "Control your Mammotion mower (Luba, Yuka): mowing, pause, return to dock, battery and status.",
+        "fr": "Pilotez votre tondeuse Mammotion (Luba, Yuka) : tonte, pause, retour à la base, batterie, état."
+      },
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-mammotion.png",
+      "docker_image": "ghcr.io/prohand/gladys-mammotion:1.1.1",
+      "gladys_version": ">=4.86.0",
+      "config_schema": [
+        {
+          "key": "intro",
+          "type": "section",
+          "label": {
+            "en": "Mammotion account",
+            "fr": "Compte Mammotion"
+          },
+          "description": {
+            "en": "Use the email and password of your Mammotion app account. Tip: create a second account, share the mower with it from the app, and use it here, so Gladys does not log you out of your phone.",
+            "fr": "Utilisez l'email et le mot de passe de votre compte de l'application Mammotion. Astuce : créez un second compte, partagez-lui la tondeuse depuis l'application et utilisez-le ici, pour que Gladys ne vous déconnecte pas de votre téléphone."
+          },
+          "links": [
+            {
+              "url": "https://mammotion.com",
+              "label": {
+                "en": "Mammotion website",
+                "fr": "Site Mammotion"
+              }
+            }
+          ]
+        },
+        {
+          "key": "email",
+          "type": "string",
+          "label": {
+            "en": "Email",
+            "fr": "Email"
+          },
+          "required": true
+        },
+        {
+          "key": "password",
+          "type": "secret",
+          "label": {
+            "en": "Password",
+            "fr": "Mot de passe"
+          },
+          "required": true
+        },
+        {
+          "key": "poll_frequency",
+          "type": "number",
+          "label": {
+            "en": "Refresh interval (s)",
+            "fr": "Intervalle de rafraîchissement (s)"
+          },
+          "description": {
+            "en": "How often each mower is read, in seconds. Each read asks the mower for its state, which can briefly disturb the Mammotion app: 300 s or more is advised.",
+            "fr": "Fréquence de lecture de chaque tondeuse, en secondes. Chaque lecture demande son état à la tondeuse, ce qui peut gêner un instant l'appli Mammotion : 300 s ou plus conseillé."
+          },
+          "required": false,
+          "default": 300,
+          "min": 30,
+          "max": 3600
+        },
+        {
+          "key": "language",
+          "type": "select",
+          "label": {
+            "en": "Status language",
+            "fr": "Langue de l'état"
+          },
+          "required": false,
+          "default": "fr",
+          "options": [
+            {
+              "value": "fr",
+              "label": {
+                "en": "French",
+                "fr": "Français"
+              }
+            },
+            {
+              "value": "en",
+              "label": {
+                "en": "English",
+                "fr": "Anglais"
+              }
+            }
+          ]
+        },
+        {
+          "key": "mowing",
+          "type": "section",
+          "label": {
+            "en": "New mowing job",
+            "fr": "Nouvelle tonte"
+          },
+          "description": {
+            "en": "Settings of a new job started from Gladys (Mowing switch ON, mower docked or ready). Each mower also shows them as \"Zone to mow – …\" switches and \"Setting – …\" lists, to change them for that mower only, from the dashboard or a scene. Saving a new value here applies it to every mower. The Mammotion app keeps its own settings on the phone: Gladys cannot read them.",
+            "fr": "Réglages d'une nouvelle tonte lancée par Gladys (interrupteur Tonte sur ON, tondeuse à la base ou prête). Chaque tondeuse les affiche aussi en interrupteurs « Zone à tondre – … » et en listes « Réglage – … », pour les changer pour elle seule, depuis le tableau de bord ou une scène. Enregistrer ici une nouvelle valeur l'applique à toutes les tondeuses. L'application Mammotion garde ses réglages dans le téléphone : Gladys ne peut pas les lire."
+          }
+        },
+        {
+          "key": "mowing_zones",
+          "type": "string",
+          "label": {
+            "en": "Zones to mow",
+            "fr": "Zones à tondre"
+          },
+          "description": {
+            "en": "Zone names as shown in the app, separated by commas. Empty: every zone of the map. Each mower also shows one \"Zone to mow – …\" switch per zone of its map.",
+            "fr": "Noms des zones comme dans l'application, séparés par des virgules. Vide : toutes les zones de la carte. Chaque tondeuse affiche aussi un interrupteur « Zone à tondre – … » par zone de sa carte."
+          },
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "blade_height",
+          "type": "number",
+          "label": {
+            "en": "Blade height (mm)",
+            "fr": "Hauteur de coupe (mm)"
+          },
+          "description": {
+            "en": "Kept within the range of each mower model (e.g. 25 to 70 mm on a Luba 2).",
+            "fr": "Ramenée dans la plage de chaque modèle de tondeuse (par ex. 25 à 70 mm sur une Luba 2)."
+          },
+          "required": false,
+          "default": 60,
+          "min": 15,
+          "max": 100
+        },
+        {
+          "key": "mowing_speed",
+          "type": "select",
+          "label": {
+            "en": "Speed (m/s)",
+            "fr": "Vitesse (m/s)"
+          },
+          "required": false,
+          "default": "0.6",
+          "options": [
+            {
+              "value": "0.2",
+              "label": {
+                "en": "0.2 m/s",
+                "fr": "0,2 m/s"
+              }
+            },
+            {
+              "value": "0.3",
+              "label": {
+                "en": "0.3 m/s",
+                "fr": "0,3 m/s"
+              }
+            },
+            {
+              "value": "0.4",
+              "label": {
+                "en": "0.4 m/s",
+                "fr": "0,4 m/s"
+              }
+            },
+            {
+              "value": "0.5",
+              "label": {
+                "en": "0.5 m/s",
+                "fr": "0,5 m/s"
+              }
+            },
+            {
+              "value": "0.6",
+              "label": {
+                "en": "0.6 m/s",
+                "fr": "0,6 m/s"
+              }
+            },
+            {
+              "value": "0.7",
+              "label": {
+                "en": "0.7 m/s",
+                "fr": "0,7 m/s"
+              }
+            },
+            {
+              "value": "0.8",
+              "label": {
+                "en": "0.8 m/s",
+                "fr": "0,8 m/s"
+              }
+            },
+            {
+              "value": "0.9",
+              "label": {
+                "en": "0.9 m/s",
+                "fr": "0,9 m/s"
+              }
+            },
+            {
+              "value": "1.0",
+              "label": {
+                "en": "1.0 m/s",
+                "fr": "1,0 m/s"
+              }
+            },
+            {
+              "value": "1.1",
+              "label": {
+                "en": "1.1 m/s",
+                "fr": "1,1 m/s"
+              }
+            },
+            {
+              "value": "1.2",
+              "label": {
+                "en": "1.2 m/s",
+                "fr": "1,2 m/s"
+              }
+            }
+          ]
+        },
+        {
+          "key": "line_spacing",
+          "type": "number",
+          "label": {
+            "en": "Path spacing (cm)",
+            "fr": "Espacement des trajectoires (cm)"
+          },
+          "description": {
+            "en": "Kept within the range of each mower model (e.g. 20 to 32 cm on a Luba 2).",
+            "fr": "Ramené dans la plage de chaque modèle de tondeuse (par ex. 20 à 32 cm sur une Luba 2)."
+          },
+          "required": false,
+          "default": 32,
+          "min": 15,
+          "max": 40
+        },
+        {
+          "key": "angle_mode",
+          "type": "select",
+          "label": {
+            "en": "Path angle",
+            "fr": "Angle de coupe de la trajectoire"
+          },
+          "description": {
+            "en": "Optimal: the mower chooses. Custom: the angle below. Random: a new angle for each job.",
+            "fr": "Optimal : la tondeuse choisit. Personnaliser : l'angle ci-dessous. Aléatoire : un nouvel angle à chaque tonte."
+          },
+          "required": false,
+          "default": "optimal",
+          "options": [
+            {
+              "value": "optimal",
+              "label": {
+                "en": "Optimal",
+                "fr": "Optimal"
+              }
+            },
+            {
+              "value": "custom",
+              "label": {
+                "en": "Custom",
+                "fr": "Personnaliser"
+              }
+            },
+            {
+              "value": "random",
+              "label": {
+                "en": "Random",
+                "fr": "Aléatoire"
+              }
+            }
+          ]
+        },
+        {
+          "key": "mowing_angle",
+          "type": "number",
+          "label": {
+            "en": "Custom path angle (°)",
+            "fr": "Angle personnalisé (°)"
+          },
+          "description": {
+            "en": "Used when the path angle is \"Custom\".",
+            "fr": "Utilisé quand l'angle de coupe est « Personnaliser »."
+          },
+          "required": false,
+          "default": 111,
+          "min": 0,
+          "max": 180
+        },
+        {
+          "key": "mowing_pattern",
+          "type": "select",
+          "label": {
+            "en": "Mowing pattern",
+            "fr": "Mode trajectoire de tonte"
+          },
+          "required": false,
+          "default": "zigzag",
+          "options": [
+            {
+              "value": "zigzag",
+              "label": {
+                "en": "Zigzag",
+                "fr": "Trajectoire en zigzag"
+              }
+            },
+            {
+              "value": "chessboard",
+              "label": {
+                "en": "Chessboard",
+                "fr": "Damier"
+              }
+            },
+            {
+              "value": "zigzag_adaptive",
+              "label": {
+                "en": "Adaptive zigzag",
+                "fr": "Zigzag adaptatif"
+              }
+            }
+          ]
+        },
+        {
+          "key": "border_laps",
+          "type": "number",
+          "label": {
+            "en": "Perimeter laps",
+            "fr": "Tours de tonte du périmètre"
+          },
+          "required": false,
+          "default": 0,
+          "min": 0,
+          "max": 4
+        },
+        {
+          "key": "obstacle_detection",
+          "type": "select",
+          "label": {
+            "en": "Obstacle detection",
+            "fr": "Mode détection d'obstacle"
+          },
+          "required": false,
+          "default": "off",
+          "options": [
+            {
+              "value": "off",
+              "label": {
+                "en": "Off",
+                "fr": "Désactivé"
+              }
+            },
+            {
+              "value": "slow",
+              "label": {
+                "en": "Slow down on contact",
+                "fr": "Ralentir au contact"
+              }
+            },
+            {
+              "value": "less",
+              "label": {
+                "en": "Avoid contact",
+                "fr": "Éviter le contact"
+              }
+            }
+          ]
+        },
+        {
+          "key": "obstacle_laps",
+          "type": "number",
+          "label": {
+            "en": "No-go zone laps",
+            "fr": "Tours de tonte des zones interdites"
+          },
+          "required": false,
+          "default": 0,
+          "min": 0,
+          "max": 3
+        },
+        {
+          "key": "mowing_order",
+          "type": "select",
+          "label": {
+            "en": "Path order",
+            "fr": "Ordre des itinéraires"
+          },
+          "required": false,
+          "default": "zigzag_first",
+          "options": [
+            {
+              "value": "zigzag_first",
+              "label": {
+                "en": "Zigzag first",
+                "fr": "Zigzag d'abord"
+              }
+            },
+            {
+              "value": "border_first",
+              "label": {
+                "en": "Perimeter first",
+                "fr": "Périmètre d'abord"
+              }
+            }
+          ]
+        },
+        {
+          "key": "start_progress",
+          "type": "number",
+          "label": {
+            "en": "Start progress (%)",
+            "fr": "Progression du démarrage (%)"
+          },
+          "description": {
+            "en": "Start the job at this share of the zone: 0 starts from the beginning.",
+            "fr": "Commencer la tonte à ce pourcentage de la zone : 0 part du début."
+          },
+          "required": false,
+          "default": 0,
+          "min": 0,
+          "max": 99
+        }
+      ],
+      "stars": 0,
+      "pushed_at": "2026-10-04T17:49:31Z",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
+    },
+    {
       "slug": "melcloud",
       "store_slug": "GladysAssistant/gladys-melcloud",
       "repo_url": "https://github.com/GladysAssistant/gladys-melcloud",
@@ -7440,13 +8196,13 @@
       "repo_url": "https://github.com/prohand/gladys-nut",
       "name": "Network UPS Tools (NUT)",
       "type": "device",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "description": {
         "en": "Monitor the status, load and battery runtime of the UPS devices on your NUT servers.",
         "fr": "Suivez l’état, la charge et l’autonomie des onduleurs de vos serveurs Network UPS Tools."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-nut.jpg",
-      "docker_image": "ghcr.io/prohand/gladys-nut:2.0.0",
+      "docker_image": "ghcr.io/prohand/gladys-nut:2.0.1",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -7715,7 +8471,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-22T21:21:34Z",
+      "pushed_at": "2026-10-01T12:32:07Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
@@ -7896,13 +8652,13 @@
       "repo_url": "https://github.com/prohand/gladys-olvid",
       "name": "Olvid",
       "type": "communication",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "description": {
         "en": "Chat with your home from Olvid, the end-to-end encrypted messenger (personal profile).",
         "fr": "Discutez avec votre maison depuis Olvid, la messagerie chiffrée de bout en bout."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-olvid.png",
-      "docker_image": "ghcr.io/prohand/gladys-olvid:1.0.4",
+      "docker_image": "ghcr.io/prohand/gladys-olvid:1.0.6",
       "gladys_version": ">=4.86.0",
       "config_schema": [
         {
@@ -8040,10 +8796,26 @@
           },
           "required": false,
           "default": true
+        },
+        {
+          "key": "message_retention_days",
+          "type": "number",
+          "label": {
+            "en": "Message retention (days)",
+            "fr": "Conservation des messages (jours)"
+          },
+          "description": {
+            "en": "The Olvid daemon deletes the messages older than this. 0 keeps everything.",
+            "fr": "Le démon Olvid supprime les messages plus anciens. 0 garde tout."
+          },
+          "required": false,
+          "default": 30,
+          "min": 0,
+          "max": 3650
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-02T08:09:58Z",
+      "pushed_at": "2026-09-29T21:31:29Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
@@ -8157,6 +8929,72 @@
       "stars": 0,
       "pushed_at": "2026-08-10T13:36:24Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7365162?v=4"
+    },
+    {
+      "slug": "orbit-b-hyve",
+      "store_slug": "plsoftware/gladys-bhyve",
+      "repo_url": "https://github.com/plsoftware/gladys-bhyve",
+      "name": "Orbit B-hyve",
+      "type": "device",
+      "version": "0.2.0",
+      "description": {
+        "en": "Control Orbit B-hyve sprinkler timers: water a zone, set run time and rain delay.",
+        "fr": "Pilotez les programmateurs Orbit B-hyve : arrosage par zone, durée et report pluie."
+      },
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/plsoftware--gladys-bhyve.png",
+      "docker_image": "ghcr.io/plsoftware/gladys-bhyve:0.2.0",
+      "gladys_version": ">=5.1.0",
+      "config_schema": [
+        {
+          "key": "intro",
+          "type": "section",
+          "label": {
+            "en": "B-hyve account",
+            "fr": "Compte B-hyve"
+          },
+          "description": {
+            "en": "The same email and password you use in the B-hyve app.",
+            "fr": "Les mêmes e-mail et mot de passe que dans l'application B-hyve."
+          }
+        },
+        {
+          "key": "username",
+          "type": "string",
+          "label": {
+            "en": "Email",
+            "fr": "E-mail"
+          },
+          "required": true
+        },
+        {
+          "key": "password",
+          "type": "secret",
+          "label": {
+            "en": "Password",
+            "fr": "Mot de passe"
+          },
+          "required": true
+        },
+        {
+          "key": "poll_frequency",
+          "type": "number",
+          "label": {
+            "en": "Refresh interval (s)",
+            "fr": "Intervalle de rafraîchissement (s)"
+          },
+          "description": {
+            "en": "Safety-net poll; live changes arrive instantly over the event stream.",
+            "fr": "Interrogation de secours ; les changements arrivent en direct via le flux d'événements."
+          },
+          "required": false,
+          "default": 300,
+          "min": 60,
+          "max": 3600
+        }
+      ],
+      "stars": 0,
+      "pushed_at": "2026-09-30T08:12:40Z",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/35511758?v=4"
     },
     {
       "slug": "overkiz",
@@ -8493,7 +9331,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-27T12:10:27Z",
+      "pushed_at": "2026-10-05T00:00:08Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1773153?v=4"
     },
     {
@@ -8739,7 +9577,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-27T12:10:24Z",
+      "pushed_at": "2026-09-29T10:36:24Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1773153?v=4"
     },
     {
@@ -8865,7 +9703,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-27T19:59:14Z",
+      "pushed_at": "2026-10-02T08:41:57Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -8874,13 +9712,13 @@
       "repo_url": "https://github.com/prohand/gladys-pollen",
       "name": "Pollens",
       "type": "device",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "description": {
         "en": "Pollen risk for the locations you choose, from the Copernicus CAMS European forecast.",
         "fr": "Risque pollinique pour les lieux de votre choix, via la prévision européenne CAMS de Copernicus."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-pollen.png",
-      "docker_image": "ghcr.io/prohand/gladys-pollen:2.0.3",
+      "docker_image": "ghcr.io/prohand/gladys-pollen:2.0.4",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -8983,7 +9821,281 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-22T15:26:53Z",
+      "pushed_at": "2026-10-03T19:14:56Z",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
+    },
+    {
+      "slug": "programme-tele",
+      "store_slug": "prohand/gladys-programmetele",
+      "repo_url": "https://github.com/prohand/gladys-programmetele",
+      "name": "Programme Télé",
+      "type": "device",
+      "version": "2.0.0",
+      "description": {
+        "en": "French TV guide (TNT): what is on now, next and tonight on your favourite channels.",
+        "fr": "Programme TV (TNT) : ce qui passe maintenant, ensuite et ce soir sur vos chaînes préférées."
+      },
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-programmetele.png",
+      "docker_image": "ghcr.io/prohand/gladys-programmetele:2.0.0",
+      "gladys_version": ">=5.1.0",
+      "config_schema": [
+        {
+          "key": "intro",
+          "type": "section",
+          "label": {
+            "en": "Getting started",
+            "fr": "Pour commencer"
+          },
+          "description": {
+            "en": "Pick the channels to follow: each one becomes a device with 3 sensors (now, next, tonight). The guide comes from the free XMLTV feed of xmltvfr.fr. No account, no API key.",
+            "fr": "Choisissez les chaînes à suivre : chacune devient un appareil avec 3 capteurs (en cours, à suivre, ce soir). Le programme vient du flux XMLTV gratuit de xmltvfr.fr. Pas de compte, pas de clé d'API."
+          },
+          "links": [
+            {
+              "url": "https://xmltvfr.fr",
+              "label": {
+                "en": "XMLTV source (xmltvfr.fr)",
+                "fr": "Source XMLTV (xmltvfr.fr)"
+              }
+            }
+          ]
+        },
+        {
+          "key": "channels",
+          "type": "multi_select",
+          "label": {
+            "en": "Channels",
+            "fr": "Chaînes"
+          },
+          "description": {
+            "en": "One Gladys device is created per selected channel.",
+            "fr": "Un appareil Gladys est créé par chaîne cochée."
+          },
+          "required": true,
+          "default": [
+            "TF1.fr",
+            "France2.fr",
+            "France3.fr",
+            "France5.fr",
+            "M6.fr",
+            "Arte.fr"
+          ],
+          "options": [
+            {
+              "value": "TF1.fr",
+              "label": {
+                "en": "TF1",
+                "fr": "TF1"
+              }
+            },
+            {
+              "value": "France2.fr",
+              "label": {
+                "en": "France 2",
+                "fr": "France 2"
+              }
+            },
+            {
+              "value": "France3.fr",
+              "label": {
+                "en": "France 3",
+                "fr": "France 3"
+              }
+            },
+            {
+              "value": "CanalPlus.fr",
+              "label": {
+                "en": "Canal+",
+                "fr": "Canal+"
+              }
+            },
+            {
+              "value": "France5.fr",
+              "label": {
+                "en": "France 5",
+                "fr": "France 5"
+              }
+            },
+            {
+              "value": "M6.fr",
+              "label": {
+                "en": "M6",
+                "fr": "M6"
+              }
+            },
+            {
+              "value": "Arte.fr",
+              "label": {
+                "en": "Arte",
+                "fr": "Arte"
+              }
+            },
+            {
+              "value": "W9.fr",
+              "label": {
+                "en": "W9",
+                "fr": "W9"
+              }
+            },
+            {
+              "value": "TMC.fr",
+              "label": {
+                "en": "TMC",
+                "fr": "TMC"
+              }
+            },
+            {
+              "value": "NT1.fr",
+              "label": {
+                "en": "TFX",
+                "fr": "TFX"
+              }
+            },
+            {
+              "value": "LaChaineParlementaire.fr",
+              "label": {
+                "en": "LCP",
+                "fr": "LCP"
+              }
+            },
+            {
+              "value": "France4.fr",
+              "label": {
+                "en": "France 4",
+                "fr": "France 4"
+              }
+            },
+            {
+              "value": "BFMTV.fr",
+              "label": {
+                "en": "BFM TV",
+                "fr": "BFM TV"
+              }
+            },
+            {
+              "value": "CNews.fr",
+              "label": {
+                "en": "CNews",
+                "fr": "CNews"
+              }
+            },
+            {
+              "value": "CStar.fr",
+              "label": {
+                "en": "CStar",
+                "fr": "CStar"
+              }
+            },
+            {
+              "value": "Gulli.fr",
+              "label": {
+                "en": "Gulli",
+                "fr": "Gulli"
+              }
+            },
+            {
+              "value": "T18.fr",
+              "label": {
+                "en": "T18",
+                "fr": "T18"
+              }
+            },
+            {
+              "value": "NOVO19.fr",
+              "label": {
+                "en": "NOVO19",
+                "fr": "NOVO19"
+              }
+            },
+            {
+              "value": "TF1SeriesFilms.fr",
+              "label": {
+                "en": "TF1 Séries Films",
+                "fr": "TF1 Séries Films"
+              }
+            },
+            {
+              "value": "LEquipe21.fr",
+              "label": {
+                "en": "L'Équipe",
+                "fr": "L'Équipe"
+              }
+            },
+            {
+              "value": "6ter.fr",
+              "label": {
+                "en": "6ter",
+                "fr": "6ter"
+              }
+            },
+            {
+              "value": "Numero23.fr",
+              "label": {
+                "en": "RMC Story",
+                "fr": "RMC Story"
+              }
+            },
+            {
+              "value": "RMCDecouverte.fr",
+              "label": {
+                "en": "RMC Découverte",
+                "fr": "RMC Découverte"
+              }
+            },
+            {
+              "value": "Cherie25.fr",
+              "label": {
+                "en": "RMC Life",
+                "fr": "RMC Life"
+              }
+            },
+            {
+              "value": "LCI.fr",
+              "label": {
+                "en": "LCI",
+                "fr": "LCI"
+              }
+            },
+            {
+              "value": "FranceInfo.fr",
+              "label": {
+                "en": "franceinfo:",
+                "fr": "franceinfo:"
+              }
+            },
+            {
+              "value": "ParisPremiere.fr",
+              "label": {
+                "en": "Paris Première",
+                "fr": "Paris Première"
+              }
+            },
+            {
+              "value": "CanalPlusSport.fr",
+              "label": {
+                "en": "Canal+ Sport",
+                "fr": "Canal+ Sport"
+              }
+            },
+            {
+              "value": "CanalPlusCinema.fr",
+              "label": {
+                "en": "Canal+ Cinéma",
+                "fr": "Canal+ Cinéma"
+              }
+            },
+            {
+              "value": "PlanetePlus.fr",
+              "label": {
+                "en": "Planète+",
+                "fr": "Planète+"
+              }
+            }
+          ]
+        }
+      ],
+      "stars": 0,
+      "pushed_at": "2026-09-29T19:06:45Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
@@ -8992,13 +10104,13 @@
       "repo_url": "https://github.com/prohand/gladys-proxmox",
       "name": "Proxmox",
       "type": "device",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "description": {
         "en": "Proxmox VE backups per node (last run, duration, status) and the state of every VM and LXC.",
         "fr": "Sauvegardes Proxmox VE par nœud (dernière, durée, statut) et état de chaque VM et LXC."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-proxmox.png",
-      "docker_image": "ghcr.io/prohand/gladys-proxmox:2.1.0",
+      "docker_image": "ghcr.io/prohand/gladys-proxmox:2.1.1",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -9471,7 +10583,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-24T10:01:44Z",
+      "pushed_at": "2026-09-29T20:48:19Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
@@ -9480,13 +10592,13 @@
       "repo_url": "https://github.com/prohand/gladys-proxmox-backup-server",
       "name": "Proxmox Backup Server",
       "type": "device",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "description": {
         "en": "Read-only monitoring of Proxmox Backup Server datastores and maintenance tasks.",
         "fr": "Supervision en lecture seule des datastores et tâches de maintenance Proxmox Backup Server."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-proxmox-backup-server.png",
-      "docker_image": "ghcr.io/prohand/gladys-proxmox-backup-server:2.1.1",
+      "docker_image": "ghcr.io/prohand/gladys-proxmox-backup-server:2.1.2",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -9638,8 +10750,62 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-24T10:11:32Z",
+      "pushed_at": "2026-10-02T08:15:48Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
+    },
+    {
+      "slug": "pushover",
+      "store_slug": "cicoub13/gladys-pushover",
+      "repo_url": "https://github.com/cicoub13/gladys-pushover",
+      "name": "Pushover",
+      "type": "communication",
+      "version": "0.1.2",
+      "description": {
+        "en": "Get Gladys messages and notifications on your phone through Pushover.",
+        "fr": "Recevez les messages et notifications de Gladys sur votre téléphone via Pushover."
+      },
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/cicoub13--gladys-pushover.png",
+      "docker_image": "ghcr.io/cicoub13/gladys-pushover:0.1.2",
+      "gladys_version": ">=4.86.0",
+      "config_schema": [
+        {
+          "key": "intro",
+          "type": "section",
+          "label": {
+            "en": "Create a Pushover application",
+            "fr": "Créer une application Pushover"
+          },
+          "description": {
+            "en": "Gladys sends its messages through an application registered on your Pushover account. Create one (free, name it Gladys for instance), then paste its API token below. Each Gladys user then enters their own Pushover user key in the \"My account\" block.",
+            "fr": "Gladys envoie ses messages au nom d'une application enregistrée sur votre compte Pushover. Créez-en une (gratuit, nommez-la Gladys par exemple), puis collez son jeton d'API ci-dessous. Chaque utilisateur de Gladys saisit ensuite sa propre clé utilisateur Pushover dans le bloc « Mon compte »."
+          },
+          "links": [
+            {
+              "url": "https://pushover.net/apps/build",
+              "label": {
+                "en": "Create a Pushover application",
+                "fr": "Créer une application Pushover"
+              }
+            }
+          ]
+        },
+        {
+          "key": "app_token",
+          "type": "secret",
+          "label": {
+            "en": "Application API token",
+            "fr": "Jeton d'API de l'application"
+          },
+          "placeholder": {
+            "en": "30 letters and digits",
+            "fr": "30 lettres et chiffres"
+          },
+          "required": true
+        }
+      ],
+      "stars": 0,
+      "pushed_at": "2026-10-03T19:48:17Z",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1773153?v=4"
     },
     {
       "slug": "qualite-de-l-air",
@@ -10293,7 +11459,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-27T12:10:21Z",
+      "pushed_at": "2026-09-29T22:54:18Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1773153?v=4"
     },
     {
@@ -11446,7 +12612,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-08-07T13:19:45Z",
+      "pushed_at": "2026-10-02T08:38:10Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -11614,7 +12780,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-07T21:33:51Z",
+      "pushed_at": "2026-10-02T08:53:12Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -11880,7 +13046,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-01T19:49:47Z",
+      "pushed_at": "2026-10-02T08:38:11Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/33096540?v=4"
     },
     {
@@ -11889,13 +13055,13 @@
       "repo_url": "https://github.com/prohand/gladys-host-monitoring",
       "name": "Supervision hôte",
       "type": "device",
-      "version": "2.0.0",
+      "version": "2.0.2",
       "description": {
         "en": "Reports the CPU, memory, disk usage and CPU temperature of the machine running Gladys.",
         "fr": "Remonte l'usage CPU, la mémoire, l'espace disque et la température CPU de la machine hôte."
       },
       "cover_url": "https://integration-store-storage.gladysassistant.com/covers/prohand--gladys-host-monitoring.png",
-      "docker_image": "ghcr.io/prohand/gladys-host-monitoring:2.0.0",
+      "docker_image": "ghcr.io/prohand/gladys-host-monitoring:2.0.2",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -12141,7 +13307,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-23T19:21:15Z",
+      "pushed_at": "2026-09-30T16:48:05Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20227162?v=4"
     },
     {
@@ -12556,7 +13722,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-27T12:10:16Z",
+      "pushed_at": "2026-09-29T12:44:20Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1773153?v=4"
     },
     {
@@ -12983,6 +14149,198 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/35010958?v=4"
     },
     {
+      "slug": "tydom",
+      "store_slug": "quentinlegay/gladys-tydom",
+      "repo_url": "https://github.com/quentinlegay/gladys-tydom",
+      "name": "Tydom",
+      "type": "device",
+      "version": "2.0.1",
+      "description": {
+        "en": "Control your Delta Dore Tydom devices (shutters, lights, gates, thermostats) through tydom2mqtt.",
+        "fr": "Pilotez vos appareils Delta Dore Tydom (volets, lumières, portails, thermostats) via tydom2mqtt."
+      },
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/quentinlegay--gladys-tydom.png",
+      "docker_image": "ghcr.io/quentinlegay/gladys-tydom:2.0.1",
+      "gladys_version": ">=4.86.0",
+      "config_schema": [
+        {
+          "key": "intro",
+          "type": "section",
+          "label": {
+            "en": "How it works",
+            "fr": "Fonctionnement"
+          },
+          "description": {
+            "en": "This integration runs tydom2mqtt next to Gladys: it connects to your Tydom gateway and publishes your devices on your MQTT broker. Gladys then reads and controls them through that broker. You need an MQTT broker reachable from Gladys (for instance the one of the Gladys MQTT integration).",
+            "fr": "Cette intégration lance tydom2mqtt à côté de Gladys : il se connecte à votre box Tydom et publie vos appareils sur votre broker MQTT. Gladys les lit et les pilote ensuite via ce broker. Il vous faut un broker MQTT joignable depuis Gladys (par exemple celui de l'intégration MQTT de Gladys)."
+          },
+          "links": [
+            {
+              "url": "https://github.com/tydom2mqtt/tydom2mqtt",
+              "label": {
+                "en": "tydom2mqtt project",
+                "fr": "Projet tydom2mqtt"
+              }
+            }
+          ]
+        },
+        {
+          "key": "tydom_section",
+          "type": "section",
+          "label": {
+            "en": "Tydom gateway",
+            "fr": "Box Tydom"
+          },
+          "description": {
+            "en": "The MAC address is printed under the gateway (it starts with 001A25). The password is the one printed under the gateway, or leave it empty and fill in your Delta Dore account so tydom2mqtt retrieves it.",
+            "fr": "L'adresse MAC est inscrite sous la box (elle commence par 001A25). Le mot de passe est celui inscrit sous la box, ou laissez-le vide et renseignez votre compte Delta Dore pour que tydom2mqtt le récupère."
+          }
+        },
+        {
+          "key": "tydom_mac",
+          "type": "string",
+          "label": {
+            "en": "Tydom MAC address",
+            "fr": "Adresse MAC de la Tydom"
+          },
+          "placeholder": {
+            "en": "001A25XXXXXX",
+            "fr": "001A25XXXXXX"
+          },
+          "required": true
+        },
+        {
+          "key": "tydom_password",
+          "type": "secret",
+          "label": {
+            "en": "Tydom password",
+            "fr": "Mot de passe de la Tydom"
+          },
+          "required": false
+        },
+        {
+          "key": "tydom_ip",
+          "type": "string",
+          "label": {
+            "en": "Tydom IP address",
+            "fr": "Adresse IP de la Tydom"
+          },
+          "description": {
+            "en": "Local IP address of the gateway (recommended). Leave mediation.tydom.com to go through the Delta Dore cloud.",
+            "fr": "Adresse IP locale de la box (recommandé). Laissez mediation.tydom.com pour passer par le cloud Delta Dore."
+          },
+          "required": true,
+          "default": "mediation.tydom.com"
+        },
+        {
+          "key": "deltadore_login",
+          "type": "string",
+          "label": {
+            "en": "Delta Dore account e-mail",
+            "fr": "E-mail du compte Delta Dore"
+          },
+          "description": {
+            "en": "Optional: only needed when the Tydom password is left empty.",
+            "fr": "Facultatif : nécessaire uniquement si le mot de passe Tydom est laissé vide."
+          },
+          "required": false
+        },
+        {
+          "key": "deltadore_password",
+          "type": "secret",
+          "label": {
+            "en": "Delta Dore account password",
+            "fr": "Mot de passe du compte Delta Dore"
+          },
+          "required": false
+        },
+        {
+          "key": "tydom_polling_interval",
+          "type": "number",
+          "label": {
+            "en": "Tydom polling interval (s)",
+            "fr": "Intervalle d'interrogation Tydom (s)"
+          },
+          "required": false,
+          "default": 300,
+          "min": 30,
+          "max": 3600
+        },
+        {
+          "key": "mqtt_section",
+          "type": "section",
+          "label": {
+            "en": "MQTT broker",
+            "fr": "Broker MQTT"
+          },
+          "description": {
+            "en": "Use the LAN IP address of the broker host: localhost would point inside the containers.",
+            "fr": "Utilisez l'adresse IP locale de la machine du broker : localhost désignerait l'intérieur des conteneurs."
+          }
+        },
+        {
+          "key": "mqtt_host",
+          "type": "string",
+          "label": {
+            "en": "MQTT host",
+            "fr": "Hôte MQTT"
+          },
+          "placeholder": {
+            "en": "192.168.1.10",
+            "fr": "192.168.1.10"
+          },
+          "required": true
+        },
+        {
+          "key": "mqtt_port",
+          "type": "number",
+          "label": {
+            "en": "MQTT port",
+            "fr": "Port MQTT"
+          },
+          "required": false,
+          "default": 1883,
+          "min": 1,
+          "max": 65535
+        },
+        {
+          "key": "mqtt_user",
+          "type": "string",
+          "label": {
+            "en": "MQTT user",
+            "fr": "Utilisateur MQTT"
+          },
+          "required": false
+        },
+        {
+          "key": "mqtt_password",
+          "type": "secret",
+          "label": {
+            "en": "MQTT password",
+            "fr": "Mot de passe MQTT"
+          },
+          "required": false
+        },
+        {
+          "key": "manage_container",
+          "type": "boolean",
+          "label": {
+            "en": "Run tydom2mqtt from Gladys",
+            "fr": "Lancer tydom2mqtt depuis Gladys"
+          },
+          "description": {
+            "en": "Disable it if you already run tydom2mqtt yourself on the same broker: Gladys will only read its topics.",
+            "fr": "Désactivez-le si vous lancez déjà tydom2mqtt vous-même sur le même broker : Gladys se contentera de lire ses topics."
+          },
+          "required": false,
+          "default": true
+        }
+      ],
+      "stars": 0,
+      "pushed_at": "2026-10-03T13:01:39Z",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/71465560?v=4"
+    },
+    {
       "slug": "ugc",
       "store_slug": "vincentBesseau/gladys-ugc",
       "repo_url": "https://github.com/vincentBesseau/gladys-ugc",
@@ -13070,13 +14428,13 @@
       "repo_url": "https://github.com/EchoPouet/gladys-wallbox",
       "name": "Wallbox",
       "type": "device",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": {
         "en": "Monitor and control your Wallbox EV chargers via the Wallbox cloud.",
         "fr": "Suivez et pilotez vos chargeurs Wallbox via le cloud Wallbox."
       },
-      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/placeholder.png",
-      "docker_image": "ghcr.io/echopouet/gladys-wallbox:1.0.0",
+      "cover_url": "https://integration-store-storage.gladysassistant.com/covers/EchoPouet--gladys-wallbox.png",
+      "docker_image": "ghcr.io/echopouet/gladys-wallbox:1.0.1",
       "gladys_version": ">=5.1.0",
       "config_schema": [
         {
@@ -13152,7 +14510,7 @@
         }
       ],
       "stars": 0,
-      "pushed_at": "2026-09-26T08:34:08Z",
+      "pushed_at": "2026-10-04T06:31:06Z",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5129154?v=4"
     },
     {
